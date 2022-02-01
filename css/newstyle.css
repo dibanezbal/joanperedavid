@@ -21,8 +21,23 @@ iframe {
     overflow-y: hidden;
 }
 
+/* hamburguer */
 
-
+.navbar a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .navbar a.icon-ham {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
 
 /* Google Forms */
 
@@ -75,14 +90,22 @@ iframe {
         height: 60px !important;
     }
 
-}
-
-@media (max-width: 990px) {
-
     .main-content{
         text-align: center;
         display: flex;
         align-items: center;
         justify-content: center;
-    }    
+    }   
+
+    ul.navbar-nav {
+        padding-left: 1rem;
+    }
+
+}
+
+
+@media (min-width: 990px) {
+    .navbar-toggle-icon {
+        display: none !important;
+    }
 }

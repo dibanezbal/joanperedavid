@@ -1,11 +1,17 @@
-/*!
-* Start Bootstrap - Creative v7.0.5 (https://startbootstrap.com/theme/creative)
-* Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
-*/
-//
-// Scripts
-// 
+
+// Hamburguer menu display
+function myFunction() {
+    var x = document.getElementById("navbarResponsive");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+      element.classList.remove("collapse");
+    } else {
+      x.style.display = "block";
+    }
+  }
+
+
+
 
 window.addEventListener('DOMContentLoaded', event => {
 
