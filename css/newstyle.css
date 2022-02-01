@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.color1 {color: #7CD1F0;}
+.color2 {color: #035992;}
+.color3 {color: #026B83;}
+.color4 {color: #409F99;}
+.color5 {color: #D9DFDB;}
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-primary {
+    background: #035992 !important;
+}
+
+
+
+iframe {
+    overflow-y: hidden;
+}
+
+
+
+
+/* Google Forms */
+
+.ff-form .ff-title {
+    display: none;
+}
+
+.ff-button-bar {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.ff-submit {
+    padding: 1.25rem 2.25rem !important;
+    font-size: 0.85rem !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    border: none !important;
+    border-radius: 10rem !important;
+    max-width: 150px;
+    height: 60px;
+}
+
+
+
+#ff-submit-root img, .ff-form .ff-button-bar a {
+    display: none !important;
+}
+
+.ff-form .ff-powered-img img {
+    width: 0px !important;
+    border: none !important;
+}
+
+/* Media queries */
+
+
+@media (max-width: 990px) {
+
+    #galery .row > * {
+        max-width: 50%;
+    }
+
+    #image5, #image6 {
+        display: none;
+    }
+
+    .ff-submit {
+        height: 60px !important;
+    }
+
+}
+
+@media (max-width: 990px) {
+
+    .main-content{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }    
+}
