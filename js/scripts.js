@@ -2,14 +2,18 @@
 // Hamburguer menu display
 function myFunction() {
     var x = document.getElementById("navbarResponsive");
+    var icon = document.getElementById("navbar-close-icon");
     if (x.style.display === "block") {
       x.style.display = "none";
-      element.classList.remove("collapse");
+      icon.innerHTML = "&#9776";
+
     } else {
       x.style.display = "block";
+      icon.innerHTML = "X";
+
+
     }
   }
-
 
 
 
@@ -28,6 +32,9 @@ window.addEventListener('DOMContentLoaded', event => {
         }
 
     };
+
+
+
 
     // Shrink the navbar 
     navbarShrink();
@@ -79,14 +86,12 @@ window.addEventListener('DOMContentLoaded', event => {
       }
 
       randomArrayShuffle(arr); 
-      console.log(arr);
-
 
     for (var i = 1; i <= arr.length; i++) {      
         var imagePage = document.getElementById('image' + i);
         var randomimage = "assets/img/gallery/thumbnails/" + arr[i] + ".jpg";
         imagePage.src=randomimage;
-        console.log(randomimage);
+
     }
 
 
