@@ -15,6 +15,11 @@ function myFunction() {
     }
   }
 
+//document.getElementById("ff-success").innerHTML = "<a class="'btn btn-primary'" href="">Volver</a>";
+
+
+
+
 
 
 window.addEventListener('DOMContentLoaded', event => {
@@ -100,6 +105,13 @@ window.addEventListener('DOMContentLoaded', event => {
 
       var element = document.getElementById("ff-submit-root");
       element.classList.add("rounded-pill");
+    
+
+      
+        var form = document.getElementById("ff-compose");
+        var create = document.createElement('div');
+        create.id = "back-button";
+        create.innerHTML = '<a href="#"></a>';
     
 
 });

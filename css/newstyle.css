@@ -73,6 +73,15 @@ iframe {
     border: none !important;
 }
 
+.ff-success {
+    text-align: center;
+    min-height: 0 !important;
+}
+
+.ff-success + div > button {
+    display: none !important;
+}
+
 
 /* Animations */
 .navbar-toggle-icon {
