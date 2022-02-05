@@ -43,12 +43,21 @@ iframe {
 
 .ff-form .ff-title {
     display: none;
+    
 }
 
 .ff-button-bar {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ff-button-bar button {
+    flex: 0 0 50%;
+}
+
+.ff-button-bar a {
+    display: none !important; 
 }
 
 .ff-submit {
@@ -121,6 +130,26 @@ iframe {
     ul.navbar-nav {
         padding-left: 1rem;
     }
+
+    .callouts .btn {
+        margin-top: 1rem !important;
+        margin-bottom: 3rem !important;
+    }
+
+    .callouts .text {
+        margin-top: -3rem !important;
+        margin-bottom: 0.5rem !important;
+    }
+
+    .callouts img {
+        width: 400px;
+    }
+
+    .page-section {
+        padding: 5rem 0 !important;
+    }
+
+    #services 
 
 }
 
