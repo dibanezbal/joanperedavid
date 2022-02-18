@@ -75,11 +75,13 @@ iframe {
 
 #ff-submit-root img, .ff-form .ff-button-bar a {
     display: none !important;
+    max-height: 0 !important;
 }
 
 .ff-form .ff-powered-img img {
     width: 0px !important;
     border: none !important;
+    padding: 0 !important;
 }
 
 .ff-success {
@@ -146,7 +148,7 @@ iframe {
     }
 
     .page-section {
-        padding: 5rem 0 !important;
+        padding: 3rem 0 !important;
     }
 
     #services 

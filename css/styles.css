@@ -11384,7 +11384,7 @@ hr.divider-light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgb(59 151 211 / 40%) 0%, rgb(116 150 174 / 33%) 100%), url(../assets/img/olot.jpg);
+  background: linear-gradient(to bottom, rgb(59 151 211 / 40%) 0%, rgb(116 150 174 / 33%) 100%), url(../assets/img/olotc.jpg);
   /*background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/olot.jpg");*/
   background-position: center;
   background-repeat: no-repeat;
