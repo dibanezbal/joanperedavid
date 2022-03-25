@@ -3013,9 +3013,7 @@ textarea.form-control-lg {
 .btn:hover {
   color: #212529;
 }
-.btn-check:focus + .btn, .btn:focus {
-  outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(244, 98, 58, 0.25);
+box-shadow: 0 0 0 0.25rem rgba(244, 98, 58, 0.25);
 }
 .btn:disabled, .btn.disabled, fieldset:disabled .btn {
   pointer-events: none;
@@ -3033,18 +3031,17 @@ textarea.form-control-lg {
   border-color: #005db1;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
-  color: #fff;
-  background-color: #cf5331;
-  border-color: #c34e2e;
-  box-shadow: 0 0 0 0.25rem rgba(246, 122, 88, 0.5);
+  color: #000;
+  background-color: #D9DFDB;
+  border-color: #005db1;
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
-  color: #fff;
-  background-color: #c34e2e;
-  border-color: #b74a2c;
+  color: #000;
+  background-color: #D9DFDB;
+  border-color: #005db1;
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(246, 122, 88, 0.5);
+
 }
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
@@ -11384,7 +11381,7 @@ hr.divider-light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgb(59 151 211 / 40%) 0%, rgb(116 150 174 / 33%) 100%), url(../assets/img/olotc.jpg);
+  background: url(../assets/img/olotc.jpg);
   /*background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/olot.jpg");*/
   background-position: center;
   background-repeat: no-repeat;
