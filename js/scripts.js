@@ -1,4 +1,6 @@
 
+
+
 // Hamburguer menu display
 function myFunction() {
     var x = document.getElementById("navbarResponsive");
@@ -15,7 +17,6 @@ function myFunction() {
     }
   }
 
-//document.getElementById("ff-success").innerHTML = "<a class="'btn btn-primary'" href="">Volver</a>";
 
 
 
@@ -94,24 +95,13 @@ window.addEventListener('DOMContentLoaded', event => {
 
     for (var i = 1; i <= arr.length; i++) {      
         var imagePage = document.getElementById('image' + i);
-        var randomimage = "assets/img/gallery/thumbnails/" + arr[i] + ".jpg";
-        imagePage.src=randomimage;
-
+        var randomImage = "assets/img/gallery/thumbnails/" + arr[i] + ".jpg";
+        imagePage.src = randomImage;
     }
-
 
 
       /* Google Forms */
 
-      var element = document.getElementById("ff-submit-root");
-      element.classList.add("rounded-pill");
-    
-
       
-        var form = document.getElementById("ff-compose");
-        var create = document.createElement('div');
-        create.id = "back-button";
-        create.innerHTML = '<a href="#"></a>';
-    
 
 });

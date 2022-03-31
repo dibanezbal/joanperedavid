@@ -39,7 +39,20 @@ iframe {
     top: 0;
   }
 
+.page-section h3, span.name {
+    color: #035992;
+}
+
+.page-section a {
+    text-decoration: none;
+}
+
+
+
 /* Google Forms */
+
+
+
 
 .ff-form .ff-title {
     display: none;
