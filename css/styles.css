@@ -11366,7 +11366,7 @@ hr.divider-light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: url(../assets/img/olotc.jpg);
+  background: url(../assets/img/registro.jpg);
   /*background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/olot.jpg");*/
   background-position: center;
   background-repeat: no-repeat;
@@ -11376,9 +11376,12 @@ header.masthead {
   justify-content: center;
   align-items: center;
 }
+
 header.masthead h1, header.masthead .h1 {
   font-size: 2.25rem;
 }
+
+
 @media (min-width: 992px) {
   header.masthead {
     height: 80vh;
@@ -11396,6 +11399,7 @@ header.masthead h1, header.masthead .h1 {
 @media (min-width: 1200px) {
   header.masthead h1, header.masthead .h1 {
     font-size: 3.5rem;
+    
   }
 }
 
